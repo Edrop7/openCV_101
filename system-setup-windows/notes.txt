@@ -1,0 +1,18 @@
+Create a Python Env in Conda (Windows)
+--------------------------------------
+1. run command line as administrator
+2. run the lines:
+    conda create --name opencv-env python=3.11
+    conda activate opencv-env
+    python --version
+    pip --version
+    pip install --upgrade pip
+    pip install opencv-contrib-python streamlit moviepy jupyter matplotlib ipykernel pyautogui mediapipe mime
+!. if issue with pip install --upgrade pip
+    python -m ensurepip --default-pip
+    python -m pip install --upgrade pip
+
+Alternative to manual installation
+----------------------------------
+    review requirements.txt and install_opencv.bat
+        automates the process
