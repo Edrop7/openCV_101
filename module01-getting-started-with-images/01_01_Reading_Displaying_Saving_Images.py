@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read image as grayscale.
-bw_img = cv2.imread('img_bw_18x18.png', cv2.IMREAD_GRAYSCALE)
+bw_img = cv2.imread('img_bw_64x64.png', cv2.IMREAD_GRAYSCALE)
 
 # Print the image data (pixel values) of a 2D NumPy array.
 # Each pixel value is 8-bits in the range [0, 255].
